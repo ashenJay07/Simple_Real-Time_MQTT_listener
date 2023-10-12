@@ -9,8 +9,8 @@ const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
-const MQTT_BROKER_URL = "mqtt://broker.mqtt-dashboard.com";
-const MQTT_TOPIC = "slt-mqtt-receiver";
+const MQTT_BROKER_URL = "mqtt://example.mqtt-broker.com"; // add your broker here
+const MQTT_TOPIC = "mqtt-receiver";
 
 const mqttClient = mqtt.connect(MQTT_BROKER_URL);
 
