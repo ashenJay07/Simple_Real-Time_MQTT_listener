@@ -1,4 +1,4 @@
-# Simple_Real-Time_MQTT_listener
+# Real-Time_MQTT_listener
 
 ### How to start frontend and backend
 
